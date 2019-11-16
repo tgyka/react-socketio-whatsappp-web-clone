@@ -1,0 +1,41 @@
+.right {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  padding: 0px;
+}
+
+.right .messageheader {
+  height: 10%;
+  max-height: 60;
+  width: 100%;
+  background-color: #4c8790;
+  padding: 15px;
+}
+
+.right .messages {
+  height: 85vh;
+  max-height: 60;
+  width: 100%;
+  background-color: pink;
+  overflow-y: scroll;
+}
+.right .messages::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #cac8ee;
+}
+.right .messages::-webkit-scrollbar {
+  width: 5px;
+  background-color: green;
+}
+.right .messages::-webkit-scrollbar-thumb {
+  background-color: #6b3a61;
+}
+
+.right .sendmessage {
+  height: 5vh;
+  max-height: 60;
+  width: 100%;
+  background-color: darkcyan;
+}
